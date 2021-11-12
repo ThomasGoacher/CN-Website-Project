@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: purple;
+}
+
+.socials{
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.introimage{
+    flex-basis: auto;
+    object-fit: contain;
+    padding: 15px;
+}
+
+.intro{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: purple;
+    justify-content: center;
+}
+
+.artimages{
+    text-align: center;
+    flex-basis: auto;
+    object-fit: contain;
+    padding: 15px;
+}
+
+.photoimages{
+    text-align: center;
+    flex-basis: auto;
+    object-fit: contain;
+    padding: 15px;
+}
+
+.para1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: purple;
+    justify-content: center;
+}
+
+.buttons{
+    text-align: center;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: purple;
+    border-color: white;
+    color: springgreen;
+}
+
+
